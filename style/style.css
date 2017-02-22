@@ -1,1 +1,110 @@
+html {  
+2   background: url(https://cdn.pixabay.com/photo/2016/07/20/10/57/nebula-1530144_960_720.png) no-repeat center center fixed;  
+3   -webkit-background-size: cover; 
+4   -moz-background-size: cover; 
+5   -o-background-size: cover; 
+6   background-size: cover; 
+7 } 
+8 
+ 
+9 h2 { 
+10 	text-align: left; 
+11 } 
+12 #contact_form{ width: 200px; 
+13 
+ 
+14 } 
+15 
+ 
+16 #nav li { 
+17   text-align: left; 
+18 } 
+19 
+ 
+20 #primary_nav_wrap 
+21 { 
+22 	margin-top:15px 
+23 } 
+24 
+ 
+25 #primary_nav_wrap ul 
+26 { 
+27 	list-style:none; 
+28 	position:fixed; 
+29 	float:left; 
+30 	margin:0; 
+31 	padding:0 
+32 } 
+33 
+ 
+34 #primary_nav_wrap ul a 
+35 { 
+36 	display:block; 
+37 	color:#333; 
+38 	text-decoration:none; 
+39 	font-weight:700; 
+40 	font-size:12px; 
+41 	line-height:32px; 
+42 	padding:0 15px; 
+43 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif 
+44 } 
+45 
+ 
+46 #primary_nav_wrap ul li 
+47 { 
+48 	position:relative; 
+49 	float:left; 
+50 	margin:0; 
+51 	padding:0 
+52 } 
+53 
+ 
+54 #primary_nav_wrap ul li.current-menu-item 
+55 { 
+56 	background:#ddd 
+57 } 
+58 
+ 
+59 #primary_nav_wrap ul li:hover 
+60 { 
+61 	background:#f6f6f6 
+62 } 
+63 
+ 
+64 #primary_nav_wrap ul ul 
+65 { 
+66 	display:none; 
+67 	position:absolute; 
+68 	top:100%; 
+69 	left:0; 
+70 	background:#fff; 
+71 	padding:0 
+72 } 
+73 
+ 
+74 #primary_nav_wrap ul ul li 
+75 { 
+76 	float:none; 
+77 	width:200px 
+78 } 
+79 
+ 
+80 #primary_nav_wrap ul ul a 
+81 { 
+82 	line-height:120%; 
+83 	padding:10px 15px 
+84 } 
+85 
+ 
+86 #primary_nav_wrap ul ul ul 
+87 { 
+88 	top:0; 
+89 	left:100% 
+90 } 
+91 
+ 
+92 #primary_nav_wrap ul li:hover > ul 
+93 { 
+94 	display:block 
+95 } 
 
